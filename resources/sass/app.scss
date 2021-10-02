@@ -1,0 +1,84 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+@import "file-uploader";
+@import "drawer";
+@import "folder";
+@import "image-priview";
+@import "pages";
+
+
+// Bootstrap
+//@import '~bootstrap/scss/bootstrap';
+//@import '~admin-lte/dist/css/adminlte.css';
+
+
+
+.h-10{
+    height: 10px !important;
+}
+.h-13{
+    height: 13px !important;
+}
+.h-28{
+    height: 28px;
+}
+.h-30{
+    height: 30px;
+}
+.h-50{
+    height: 50px;
+}
+.h-200{
+    height: 200px !important;
+}
+.min-h-350{
+    min-height: 350px;
+}
+.min-h-100{
+    min-height: 100px;
+}
+
+.mt-m-5{
+    margin-top: -5px;
+}
+
+.mt-m-10{
+    margin-top: -10px !important;
+}
+
+.font-20{
+    font-size: 20px;
+}
+
+
+.scroll-bar{
+    &::-webkit-scrollbar {
+        width: 3px;
+    }
+
+    &::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: $primary_color;
+        outline: 1px solid slategrey;
+    }
+}
+
+.responsive-drawer-500{
+    width: 500px;
+}
+
+.responsive-drawer-350{
+    width: 350px;
+}
+
+@media screen and (max-width: 600px) {
+    .responsive-drawer{
+        width: 90%;
+    }
+}

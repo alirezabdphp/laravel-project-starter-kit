@@ -1,0 +1,23 @@
+.uploader {
+  width: 100%;
+  background: #2196F3;
+  color: #fff;
+  padding: 30px 15px;
+  text-align: center;
+  border-radius: 2px;
+  border: 3px dashed #fff;
+  font-size: 25px;
+  position: relative;
+  &.dragging {
+    background: #fff;
+    color: #2196F3;
+    border: 2px dashed $primary_color;
+    .file-input label {
+      background: #2196F3;
+      color: #fff;
+    }
+  }
+  i {
+    font-size: 75px;
+  }
+}

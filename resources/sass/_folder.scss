@@ -1,0 +1,45 @@
+/*File Manager*/
+.folder{
+  &:hover{
+    .row{
+      background: #f4f6f9;
+      transition: .5ms;
+      border-radius: 2px;
+    }
+
+    .actions{
+      display: block;
+    }
+  }
+
+  .actions{
+    display: none;
+    position: absolute;
+    top: -6px;
+    right: -32px;
+
+    .edit-btn{
+      margin-right: -8px;
+    }
+
+    .delete-btn{
+      margin-left: -5px
+    }
+  }
+
+  &.file{
+    &:hover{
+      .actions{
+        display: block;
+      }
+    }
+
+    .actions{
+      display: none;
+      position: absolute;
+      top: 10px;
+      right: 3px;
+    }
+  }
+}
+
